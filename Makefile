@@ -38,6 +38,8 @@ SRC := ft_isalpha.c \
 	ft_freestr.c \
 	ft_lsc.c \
 	ft_printf.c \
+	ft_isspace.c \
+	ft_strcmp.c \
 
 OBJ := $(SRC:.c=.o)
 ARFLAGS := rcs
