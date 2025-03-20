@@ -6,7 +6,7 @@
 /*   By: abidaux <abidaux@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/15 20:01:29 by abidaux           #+#    #+#             */
-/*   Updated: 2025/03/18 19:53:53 by abidaux          ###   ########.fr       */
+/*   Updated: 2025/03/20 16:32:37 by abidaux          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -63,3 +63,4 @@ void		free_list(t_lsc *head);
 int			ft_printf(const char *god, ...);
 int			ft_isspace(char c);
 int			ft_strcmp(const char *s1, const char *s2);
+char		*ft_strjoin_free(char *s1, char *s2);
