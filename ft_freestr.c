@@ -18,11 +18,12 @@ void	ft_freestr(char **str)
 
 	if (!str || !*str)
 		return ((void)write(2, "ft_freestr: NULL pointer\n", 25));
-	i = 0;
-	while (str[i])
+	i = -1;
+	while (str[++i])
 	{
 		free(str[i]);
-		str[i++] = NULL;
+		str[i] = NULL;
 	}
 	free(str);
+	*str = NULL;
 }
