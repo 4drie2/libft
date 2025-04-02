@@ -6,7 +6,7 @@
 /*   By: abidaux <abidaux@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/05 11:03:12 by abidaux           #+#    #+#             */
-/*   Updated: 2024/12/05 11:06:46 by abidaux          ###   ########.fr       */
+/*   Updated: 2025/04/02 14:10:30 by abidaux          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,5 +25,4 @@ void	ft_freestr(char **str)
 		str[i] = NULL;
 	}
 	free(str);
-	*str = NULL;
 }
