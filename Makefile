@@ -1,5 +1,5 @@
 NAME := libft.a
-CFLAGS := -Wall -Wextra -Werror
+CFLAGS := -Wall -Wextra -Werror -fPIC
 
 SRC := ft_isalpha.c \
 	ft_isalnum.c \
