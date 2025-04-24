@@ -1,5 +1,3 @@
-# libft
-
 ![Libft Badge](https://github.com/ayogun/42-project-badges/raw/main/covers/cover-libft.png)
 
 ## Overview
