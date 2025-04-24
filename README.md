@@ -98,6 +98,5 @@ Creates `libft.a` in the repo.
 ```
 Compile with:  
 ```bash
-make
 gcc your_file.c -L. -lft
 ```
