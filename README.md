@@ -1,8 +1,3 @@
-Bien sûr ! Voici un exemple de README amélioré avec une section **“File Descriptions”** incluant une brève description pour chaque fichier, avec des exemples explicites pour les premiers, en anglais comme demandé.
-
----
-
-```markdown
 # libft
 
 ![Libft Badge](https://github.com/ayogun/42-project-badges/raw/main/covers/cover-libft.png)
@@ -105,15 +100,6 @@ Creates `libft.a` in the repo.
 ```
 Compile with:  
 ```bash
+make
 gcc your_file.c -L. -lft
 ```
-
-## Author
-
-**4drie2 / abidaux**
-
----
-
-```
-
-Let me know if you want the descriptions to be even shorter or if you want more details for certain files!
